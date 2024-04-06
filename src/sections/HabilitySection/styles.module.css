@@ -1,0 +1,71 @@
+.hability_section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.hability_section > h1 {
+  font-size: 3rem;
+}
+
+.hability_section > .hability_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.hability_section > .hability_wrapper > .hability {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hability_section > .hability_wrapper > .hability > .habilities_items_wrapper {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  row-gap: 1.5rem;
+}
+
+.hability_section
+  > .hability_wrapper
+  > .hability
+  > .habilities_items_wrapper
+  > .hability_item {
+  padding: 0.5rem;
+  border: 2px solid var(--white-color);
+  text-align: center;
+}
+
+#orange {
+  border-right: 2px solid var(--orange-color);
+  border-bottom: 2px solid var(--orange-color);
+}
+
+#blue {
+  border-right: 2px solid var(--blue-color);
+  border-bottom: 2px solid var(--blue-color);
+}
+
+#pink {
+  border-right: 2px solid var(--pink-color);
+  border-bottom: 2px solid var(--pink-color);
+}
+
+#yellow {
+  border-right: 2px solid var(--yellow-color);
+  border-bottom: 2px solid var(--yellow-color);
+}
+
+#gray {
+  border-right: 2px solid var(--gray-color);
+  border-bottom: 2px solid var(--gray-color);
+}
+
+#purple {
+  border-right: 2px solid var(--purple-color);
+  border-bottom: 2px solid var(--purple-color);
+}

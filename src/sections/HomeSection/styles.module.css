@@ -1,0 +1,47 @@
+.home_section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.home_section > .pedro {
+  width: 175px;
+  /* outline: 1px solid red; */
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.home_section > .pedro > h1:last-child {
+  align-self: flex-end;
+}
+
+.home_section > .subtitle {
+  font-size: 1.75rem;
+}
+
+.home_section > .title {
+  font-size: 3rem;
+}
+
+.home_section > .buttons_wrapper {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home_section > .buttons_wrapper > .button {
+  width: 150px;
+  padding: 0.5rem;
+  border: 1px solid white;
+  background-color: var(--black-color);
+  text-align: center;
+  color: white;
+}

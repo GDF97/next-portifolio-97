@@ -32,13 +32,13 @@ export default function ProjectsSection() {
             "AXIOS",
             "StyledComponents",
           ]}
-          image=""
+          image="https://raw.githubusercontent.com/GDF97/next-portifolio-97/main/public/p2.jpeg"
         />
         <ProjectCard
           title="FrontEndMentor-Display"
           description="Display de alguns dos meus projetos que fiz do FrontEndMentor"
           stacks={["REACT", "CSS"]}
-          image=""
+          image="https://raw.githubusercontent.com/GDF97/next-portifolio-97/main/public/p.jpeg"
         />
         <ProjectCard
           title="TodoList-FullStack"
@@ -50,13 +50,13 @@ export default function ProjectsSection() {
           title="Japan Landing Page"
           description="Landing Page realizada quando eu estava no 2°ANO"
           stacks={["HTML", "CSS", "JS"]}
-          image=""
+          image="https://raw.githubusercontent.com/GDF97/next-portifolio-97/main/public/p3.jpg"
         />
         <ProjectCard
           title="Projeto K31"
           description="Projeto do 2°ANO"
           stacks={["HTML", "CSS", "JS", "PHP", "MySQL"]}
-          image=""
+          image="https://raw.githubusercontent.com/GDF97/next-portifolio-97/main/public/p4.jpeg"
         />
       </div>
     </section>

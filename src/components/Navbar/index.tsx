@@ -51,16 +51,6 @@ export default function Navbar() {
         >
           Habilidades
         </a>
-        <a
-          href="#about-me"
-          className={
-            scrollDistance >= 2800
-              ? styles.header_items_active
-              : styles.header_items
-          }
-        >
-          Sobre Mim
-        </a>
       </div>
     </header>
   );

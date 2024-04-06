@@ -11,10 +11,18 @@ export default function HomeSection() {
       <h1 className={styles.subtitle}>Olá Mundo! Eu sou</h1>
       <h1 className={styles.title}>Desenvolvedor FullStack</h1>
       <div className={styles.buttons_wrapper}>
-        <a href="" className={styles.button}>
+        <a
+          href="https://github.com/GDF97"
+          target="_blank"
+          className={styles.button}
+        >
           GitHub
         </a>
-        <a href="" className={styles.button}>
+        <a
+          href="https://github.com/GDF97"
+          target="_blank"
+          className={styles.button}
+        >
           Linkedin
         </a>
       </div>
